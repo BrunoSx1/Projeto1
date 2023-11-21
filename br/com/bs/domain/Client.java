@@ -92,7 +92,7 @@ public class Client {
 
     @Override
     public String toString() {
-        return "br.com.thima.domain.Client{" +
+        return "br.com.bs.domain.Client{" +
                 "name='" + name + '\'' +
                 ", cpf=" + cpf +
                 '}';
