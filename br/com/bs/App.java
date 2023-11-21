@@ -15,7 +15,7 @@ public class App {
 
         String opcao = JOptionPane.showInputDialog(null,
                 "Digite 1 para cadastro, 2 para consultar, 3 para exclusão, 4 para alteração ou 5 para sair",
-                "Green dinner", JOptionPane.INFORMATION_MESSAGE);
+                "Cadastro Cliente", JOptionPane.INFORMATION_MESSAGE);
 
         while (!isOpcaoValida(opcao)) {
             if ("".equals(opcao)) {
@@ -54,7 +54,7 @@ public class App {
 
             opcao = JOptionPane.showInputDialog(null,
                     "Digite 1 para cadastro, 2 para consulta, 3 para cadastro, 4 para alteração ou 5 para sair",
-                    "Green dinner", JOptionPane.INFORMATION_MESSAGE);
+                    "Cadastro Cliente", JOptionPane.INFORMATION_MESSAGE);
         }
     }
     private static void atualizar(String dados) {
