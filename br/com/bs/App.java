@@ -23,7 +23,7 @@ public class App {
             }
             opcao = JOptionPane.showInputDialog(null,
                     "Opção inválida digite 1 para cadastro, 2 para consulta, 3 para cadastro, 4 para alteração ou 5 para sair",
-                    "Green dinner", JOptionPane.INFORMATION_MESSAGE);
+                    "Cadastro Cliente", JOptionPane.INFORMATION_MESSAGE);
         }
 
         while (isOpcaoValida(opcao)) {
